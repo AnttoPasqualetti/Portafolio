@@ -1,0 +1,27 @@
+body{
+    font-family: "Work Sans";
+    width: 100%;
+    margin: 0 auto;
+    max-width: 40em;
+    background-color: lightblue;
+    color:  #141414;
+}
+
+.par{
+    background-color: lightgreen;
+    text-align: center;
+    float: right;
+    margin: 2em;
+    padding: 2em;
+
+}
+
+h1 {
+
+    background-color: plum;
+    text-align: center;
+    margin: 2em;
+    padding: 0;
+
+}
+

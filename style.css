@@ -1,9 +1,13 @@
 body{
+    background-image: url("foto\ de\ fondo\ de\ pantalla.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: "Work Sans";
     width: 100%;
     margin: 0 auto;
     max-width: 40em;
-    background-color: lightblue;
     color:  #141414;
 }
 
@@ -24,4 +28,113 @@ h1 {
     padding: 0;
 
 }
+
+h2{
+    text-align: center;
+}
+
+.planta{
+    
+    align-items: right;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+  main {
+    color: gainsboro;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px
+      50px
+      1fr
+      100px
+      200px;
+    grid-template-areas: 
+      "my-header my-header my-header"
+      "my-nav my-nav my-nav"
+      "my-section my-section my-section"
+      "my-aside my-aside my-aside"
+      "my-footer my-footer my-footer"
+  }
+  
+  header {
+    grid-area: my-header;
+    background-color: blueviolet;
+  }
+
+  h3{
+    font-size: 4em;
+    text-align: center;
+  }
+
+ 
+  
+  nav {
+    grid-area: my-nav;
+    background-color: cornflowerblue;
+  }
+
+   h4{
+    font-size: 1em;
+    text-align: center;
+  }
+
+
+  aside {
+    grid-area: my-aside;
+    background-color: darkmagenta;
+  }
+
+  h5{
+    text-align: justify;
+    margin: 1em;
+  }
+  
+  section {
+    grid-area: my-section;
+    background-color: indigo;
+  }
+  
+  footer {
+    grid-area: my-footer;
+    background-color: darkorchid;
+  }
+  
+  @media (min-width: 600px) and (max-width: 1000px) {
+    main {
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: 150px
+        100px
+        1fr
+        100px;
+      grid-template-areas: 
+        "my-header my-header my-header"
+        "my-nav my-nav my-nav"
+        "my-aside my-section my-section"
+        "my-footer my-footer my-footer"
+    }
+  }
+  
+  @media (min-width: 1001px) {
+    main {
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: 200px
+        1fr
+        100px;
+      grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-section my-aside"
+        "my-footer my-footer my-footer"
+    }
+  }
 

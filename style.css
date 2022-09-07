@@ -83,7 +83,7 @@ img {
   
   nav {
     grid-area: my-nav;
-    background-color: cornflowerblue;
+    background-color: mediumturquoise;
   }
 
    h4{
@@ -94,7 +94,7 @@ img {
 
   aside {
     grid-area: my-aside;
-    background-color: darkmagenta;
+    background-color: mediumseagreen;
   }
 
   h5{
@@ -106,12 +106,12 @@ img {
   
   section {
     grid-area: my-section;
-    background-color: lightgreen;
+    background-color: mediumspringgreen;
   }
   
   footer {
     grid-area: my-footer;
-    background-color: darkorchid;
+    background-color: mediumaquamarine;
   }
 
   h6{

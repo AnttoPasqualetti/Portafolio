@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     font-family: "Work Sans";
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
     max-width: 40em;
     color:  #141414;
 }
@@ -42,6 +42,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 1em;
   }
 
 
@@ -73,6 +74,7 @@ img {
   }
 
   h3{
+    font-family: 'Times New Roman';
     font-size: 4em;
     text-align: center;
   }
@@ -96,18 +98,26 @@ img {
   }
 
   h5{
+    color: #141414;
     text-align: justify;
     margin: 1em;
+    padding: 1em;
   }
   
   section {
     grid-area: my-section;
-    background-color: indigo;
+    background-color: lightgreen;
   }
   
   footer {
     grid-area: my-footer;
     background-color: darkorchid;
+  }
+
+  h6{
+    text-align: left;
+    margin: 2em;
+    font-size: 1em;
   }
   
   @media (min-width: 600px) and (max-width: 1000px) {
@@ -137,4 +147,3 @@ img {
         "my-footer my-footer my-footer"
     }
   }
-

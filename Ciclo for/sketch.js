@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
   }
   
   function draw() {
@@ -11,7 +11,7 @@ function setup() {
         let d = dist (x, y, mouseX, mouseY) / width;
         circle(x, y, -d*50);
         rotate(d)
-          pop() //si se activa este los circulos quedan estaticos y solo aumenta o disminuye su tamaño
+          //pop() //si se activa este los circulos quedan estaticos y solo aumenta o disminuye su tamaño
       }
     }
   }

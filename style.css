@@ -140,7 +140,7 @@ img {
       grid-template-columns: 200px 1fr 200px;
       grid-template-rows: 200px
         1fr
-        100px;
+        240px;
       grid-template-areas:
         "my-header my-header my-header"
         "my-nav my-section my-aside"

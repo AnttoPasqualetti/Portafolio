@@ -70,7 +70,7 @@ img {
   
   header {
     grid-area: my-header;
-    background-color: lightseagreen;
+    background-color: #16A085;
   }
 
   h3{
@@ -83,7 +83,7 @@ img {
   
   nav {
     grid-area: my-nav;
-    background-color: mediumturquoise;
+    background-color: #52BE80;
   }
 
    h4{
@@ -94,24 +94,30 @@ img {
 
   aside {
     grid-area: my-aside;
-    background-color: mediumseagreen;
+    background-color: #1ABC9C;
   }
 
-  h5{
-    color: #141414;
-    text-align: justify;
-    margin: 1em;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
   }
   
   section {
     grid-area: my-section;
-    background-color: mediumspringgreen;
+    background-color: #58D68D;
   }
-  
+
+  h5{
+    color: #141414;
+    margin: 1em;
+    padding: 1em;
+  }
+
   footer {
     grid-area: my-footer;
-    background-color: mediumaquamarine;
+    background-color: #76D7C4;
   }
 
   h6{

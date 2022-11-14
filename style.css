@@ -140,3 +140,12 @@ h2{
         "my-footer my-footer my-footer"
     }
   }
+
+.proyectofinal{
+  background-color: lightgreen;
+  text-align: center;
+  float: center;
+  margin: 0;
+  padding: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }

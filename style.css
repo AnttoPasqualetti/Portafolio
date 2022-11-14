@@ -4,7 +4,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: "Work Sans";
     width: 100%;
     margin: auto;
     max-width: 40em;
@@ -15,16 +14,15 @@ body{
     background-color: lightgreen;
     text-align: center;
     float: right;
-    margin: 2em;
+    margin: 0;
     padding: 2em;
 
 }
 
 h1 {
-
     background-color: plum;
     text-align: center;
-    margin: 2em;
+    margin: 0;
     padding: 0;
 
 }
@@ -34,19 +32,8 @@ h2{
 }
 
 .planta{
-    
     text-align: center;
 }
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-  }
-
-
-
 
   main {
     color: gainsboro;

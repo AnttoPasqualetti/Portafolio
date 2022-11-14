@@ -2,7 +2,7 @@ let b = [];
 let num = 200;
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(windowWidth, windowHeight);
   
   for(let i = 0; i < num; i++){
     let c = color(random(255), random(255), random(255));
